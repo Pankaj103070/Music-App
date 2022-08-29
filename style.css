@@ -1,0 +1,132 @@
+#container{
+    height: 84vh;
+    background-color: gray;
+    display: flex;
+   flex-direction: column;
+}
+#main{
+    display: flex;
+    flex-grow: 1;
+}
+#sider{
+background-color:lightgray;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 40px;
+}
+#sider div{
+    margin: auto;
+}
+
+#content-container{
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+#header{
+    background-color: rgb(66, 63, 63);
+    height: 210px;
+    display: flex;
+    align-items: center;
+   
+}
+#brder-margin{
+    
+    margin: 10px;
+}
+.cild-header1{
+    height: 180px;
+    width: 180px;
+}
+.cild-header1 img{
+    height: 100%;
+    width: 100%;
+}
+.cild-header2{
+    height: 180px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#paragraph{
+    height: 90px;
+    width: 100%;
+    
+}
+.para-color1{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.para-color2{
+    color: white;
+}
+#play-icons-list li{
+display: inline-block;
+margin: 0px 10px 0px 0px;
+color: white;
+}
+
+#item-content{
+    background-color: whitesmoke;
+    height: 220px;
+   
+}
+#footer{
+    background-color:rgb(72, 72, 199);
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-div1{
+    height:90px ;
+    width: 200px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#footer-child-div1{
+    height: 70px;
+    width:80px;
+    background-color: pink;
+}
+#footer-child-div1 img{
+    height: 100%;
+    width: 100%;
+}
+#footer-child-div2{
+    height: 70px;
+    width:100px;
+    /* background-color: blueviolet; */
+}
+#footer-child-div2 p{
+    font-weight:100;
+    color: white;
+}
+#footer-div2{
+    height:90px ;
+    width: 300px;
+    /* background-color: white; */
+    
+}
+#footer-div2 li{
+    display: inline-block;
+    margin: 20px 30px 30px 20px;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    width: 1300px;
+    margin-left: 10px;
+}
+td{
+		padding: 15px;
+}
+#panda{
+    background-color: lightgray;
+}
+
